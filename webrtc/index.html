@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebRTC Demo</title>
+  </head>
+  <body>
+    <script type="module" src="/main.js"></script>
+    <h1>WebRTC Demo</h1>
+    <div class="videos show">
+      <span class="show">
+        <video id="webcamVideo" class="show" autoplay playsinline hidden></video>
+      </span>
+      <span class="show">
+        <video id="remoteVideo" class="show" autoplay playsinline hidden></video>
+      </span>
+    </div>
+    <button id="createRoom">Create Room</button>
+    <p class="show2" hidden>Paste this link into another tab to connect the two sessions</p>
+    
+    <input id="callInput" class="show2" hidden/>
+    <button id="copyButton" class="show2" hidden>Copy</button>
+    
+</body>
+
+</html>

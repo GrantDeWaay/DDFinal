@@ -1,0 +1,37 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 80px 10px;
+}
+
+video {
+  width: 40vw;
+  height: 20vw;
+  margin: .5rem;
+  background: black;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#callInput{
+  width: 20%;
+}
+
+#createRoom{
+  background-color: green;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
